@@ -13,12 +13,27 @@ h1 {
   text-align: center;
   font-weight: 300;
 }
+
+.info {
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  text-align: center;
+
+}
+.info h2 {
+  font-weight: 700;
+}
+
+.info h3 {
+  font-weight: 300;
+}
+
   
 img {
   max-width: 40%;
-  padding: 20px;
   display: block;
   margin: 0 auto;
+  border-radius: 100%;
 }
 
 form {
@@ -26,6 +41,7 @@ form {
 }
   
 .btn {
+  
   outline: none;
   border: none;
   cursor: pointer;
@@ -33,7 +49,7 @@ form {
   position: relative;
   background-color: #676264;
   padding: 20px 80px;
-  margin: 0 auto;
+  margin: 30px auto;
   border-radius: 20px;
   box-shadow: 0 6px #2E282A;
 }
